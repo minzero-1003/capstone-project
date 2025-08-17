@@ -1,0 +1,32 @@
+# 환경변수 파일
+.env
+
+# 로그 파일
+*.log
+
+# 운영체제별 불필요 파일
+.DS_Store
+Thumbs.db
+
+# Node.js 프로젝트
+node_modules/
+dist/
+build/
+
+# Python 프로젝트
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Java 프로젝트
+target/
+*.class
+*.jar
+*.war
+
+# IDE 설정
+.vscode/
+.idea/
+*.iml
